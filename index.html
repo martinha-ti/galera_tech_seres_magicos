@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Colunas Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #252525;
+        }
+
+        .azul {
+            background-color: #06447e;
+        }
+
+        .bordas {
+            border-radius: 40px;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 768px) {
+            .col-4 {
+                width: 100%;
+                float: left;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col azul text-center text-white p-5 mb-3">
+                <h1>Seres mágicos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-white text-justify">
+        <div class="row">
+            <div class="col-4 p-3 mt-3">
+                <h1>Pyronix</h1>
+                <img class="p-3 bordas" src="img/pyronix.png" alt="Pyronix" width="100%">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+            </div>
+            <div class="col-4 p-3 mt-3">
+                <h1>Aquafluff</h1>
+                <img class="p-3 bordas" src="img/aquafluff.png" alt="Aquafluff" width="100%">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+            </div>
+            <div class="col-4 p-3 mt-3">
+                <h1>Voltusk</h1>
+                <img class="p-3 bordas" src="img/voltusk.png" alt="Voltusk" width="100%">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam
+                    modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus aperiam modi consectetur fugiat
+                    qui? Consectetur, quidem. Non veritatis, nemo molestiae aperiam fugiat alias esse nulla rerum ullam
+                    quam officiis quae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center bg-black p-5 text-white">
+                <p>Profª Martinha | Todos os direitos reservados ! Turma Galera Tech 2026 &reg;.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
